@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Login";
+
+}
+
+@if (((string) @ViewData["name"]).Equals("Chris"))
+{
+    <h1>God damn it @ViewData["name"]</h1>
+}
+
+
+
+
+@for (int i = 0; i < (int)ViewData["number"]; i++)
+{
+    <h1>
+        I Hate @ViewData["name"]
+    </h1>
+}
+
+
+
+
+
